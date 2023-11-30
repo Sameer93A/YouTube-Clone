@@ -3,6 +3,7 @@ const videoContainer = document.querySelector(".video-container")
 const video = document.querySelector("video");
 
 playPauseBtn.addEventListener('click', togglePlay)
+video.addEventListener('click', togglePlay)
 
 document.addEventListener("keydown", e => {
     switch (e.key.toLowerCase()) {
